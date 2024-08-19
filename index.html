@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <style>
+        .text {
+            margin: 0 15vw 7vh 15vw;
+            text-align: center;
+            justify-content: center;
+            line-height: 7vh;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="Btn" class="Button">START</button>
+    <div class="mainWindow">
+        <div class="topbar">
+            <h3>Hit :<div id="Hit" class="boxes">0</div>
+            </h3>
+            <h3>Timer :<div id="Timer" class="boxes">60</div>
+            </h3>
+            </h3>
+            <h3>Score :<div id="Score" class="boxes">0</div>
+            </h3>
+            </h3>
+        </div>
+        <div id="BW" class="bubblesWindow">
+            <div class="bubbles">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        document.querySelector(".bubblesWindow").innerHTML = `<div class="text">Instructions</u> : Hit the bubbles containing 
+            the same number that pops up on the hit counter under 60 seconds.</div>`
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainWindow {
+    height: 85vh;
+    width: 75vw;
+    background-color: darkseagreen;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 40px;
+    margin-bottom: 2vh;
+}
+
+.Button {
+    height: 6vh;
+    width: 8vw;
+    margin: 1vh 0 4vh 0;
+    border-radius: 4vh;
+    border-color: seagreen;
+    background-color: rgba(69, 180, 47, 0.509);
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: large;
+}
+
+.Button:hover {
+    cursor: pointer;
+}
+
+.topbar {
+    height: 10vh;
+    width: 75vw;
+    background-color: seagreen;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+}
+
+.boxes {
+    background-color: white;
+    margin: 0 1vw;
+    padding: 0.5vh 0.5vw;
+    border-radius: 25%;
+    color: black;
+}
+
+.bubblesWindow {
+    height: 75vh;
+    width: 75vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+
+}
+
+.bubbles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 4vh 2vw;
+    height: 10vh;
+    width: 5vw;
+    background-color: white;
+
+}
+
